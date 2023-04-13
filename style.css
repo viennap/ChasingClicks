@@ -1,16 +1,32 @@
-button {
-  padding: 10px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
 }
 
-button:hover {
-  background-color: #3e8e41;
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #CBC3E3;
+  color: white;
+
+  border: 1px solid #434643;
+  border-radius: 20px;
+
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 p {
   font-size: 20px;
   margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+  background-color: #9682d2;
 }
